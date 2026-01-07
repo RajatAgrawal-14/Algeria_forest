@@ -48,5 +48,5 @@ def predict_datapoint():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=port)
 # jsonify to return result in JSON ,render_template for finding the url of html file.
